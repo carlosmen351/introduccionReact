@@ -1,0 +1,22 @@
+@import './global.scss';
+
+.CreateTodoButton {
+  & button {
+    background-color: $colorSecundarioD;
+    color: $colorTextoD;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    position: fixed;
+    bottom: 5rem;
+    right: 24px;
+    font-size: 3rem;
+    transform: rotate(0);
+    transition: .3s ease;
+    &:hover {
+      transform: rotate(224deg);
+    }
+  }
+}

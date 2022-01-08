@@ -1,0 +1,17 @@
+.TodoSearch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+  & input {
+    width: 80%;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: beige;
+    &:focus {
+      outline-color: black;
+    }
+  }
+}

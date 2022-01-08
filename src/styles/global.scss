@@ -1,0 +1,14 @@
+$colorPrincipalD: #05001E;
+$colorSecundarioD: #102189;
+$colorTextoD: #f8f8f9;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: $colorSecundarioD;
+  color: $colorTextoD;
+  font-family: 'Fira Sans', sans-serif;
+}

@@ -1,7 +1,8 @@
 .TodoSearch {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 1rem 0 2rem 0;
   & input {
     width: 80%;

@@ -5,10 +5,15 @@
   box-shadow: 5px 5px 5px 2px black;
   height: 5rem;
   display: flex;
+  flex-direction: column;
   & h2 {
     font-size: 2rem;
     text-align: center;
     margin: auto;
     width: 90%;
+  }
+  & p {
+    text-align: center;
+    margin-bottom: 1rem;
   }
 }

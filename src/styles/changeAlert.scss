@@ -1,0 +1,33 @@
+@import '../styles/global.scss';
+
+.alertChanges {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: $colorSecundarioD;
+  opacity: 80%;
+  z-index: 2;
+  top: -0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid white;
+  &-Text {
+    font-size: 2rem;
+  }
+  &-Button {
+    width: 40%;
+    height: 2rem;
+    background-color: white;
+    outline: white;
+    color: black;
+    border-radius: 16px;
+    font-size: 1rem;
+    &:hover {
+      background-color: $colorSecundarioD;
+      color: $colorTextoD;
+    }
+  }
+}

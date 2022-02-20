@@ -14,5 +14,8 @@
     &:focus {
       outline-color: black;
     }
+    &:disabled {
+      opacity: 25%;
+    }
   }
 }

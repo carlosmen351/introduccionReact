@@ -6,6 +6,9 @@
   height: 5rem;
   display: flex;
   flex-direction: column;
+  &--loading {
+    opacity: 25%;
+  }
   & h2 {
     font-size: 2rem;
     text-align: center;
